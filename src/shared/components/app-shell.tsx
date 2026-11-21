@@ -95,7 +95,7 @@ export function AppShell({ user, children }: { user: SessionUser; children: Reac
 function Brand() {
   return (
     <div className="px-5 pt-5 pb-3">
-      <div className="rounded-xl bg-black px-3 py-3">
+      <div className="rounded-xl bg-white px-3 py-3 ring-1 ring-black/10">
         <SupersociedadesLogo className="w-full" />
       </div>
       <p className="mt-3 text-center text-[11px] font-semibold tracking-[0.16em] text-muted-foreground uppercase">Inteligencia empresarial</p>

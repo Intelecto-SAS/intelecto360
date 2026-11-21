@@ -11,7 +11,7 @@ export default function LoginPage() {
       <section className="login-stage relative overflow-hidden px-6 py-10 text-white lg:flex lg:min-h-screen lg:flex-col lg:justify-between lg:px-14 lg:py-12">
         <DataArtwork />
         <div className="relative z-10">
-          <div className="w-full max-w-xs rounded-2xl bg-black px-4 py-3 lg:max-w-sm">
+          <div className="w-full max-w-xs rounded-2xl bg-white px-4 py-3 lg:max-w-sm">
             <SupersociedadesLogo className="w-full" />
           </div>
           <h1 className="mt-8 max-w-xl text-4xl font-semibold tracking-tight lg:text-5xl">Inteligencia Empresarial</h1>
