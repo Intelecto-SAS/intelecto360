@@ -33,7 +33,7 @@ import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle } from "
 import { useComparisonStore } from "@/features/comparison";
 import { apiClient } from "@/shared/lib/api-client";
 import { useUiStore } from "@/shared/lib/ui-store";
-import { CamaraLogo, DevelopedBy } from "@/shared/components/brand-logos";
+import { DevelopedBy, SupersociedadesLogo } from "@/shared/components/brand-logos";
 import type { PermissionCode, SessionUser } from "@/shared/types/domain";
 import { ROL_LABEL } from "@/shared/utils/labels";
 import { cn } from "cn";
@@ -95,7 +95,9 @@ export function AppShell({ user, children }: { user: SessionUser; children: Reac
 function Brand() {
   return (
     <div className="px-5 pt-5 pb-3">
-      <CamaraLogo className="w-full" />
+      <div className="rounded-xl bg-white px-3 py-3 ring-1 ring-black/10">
+        <SupersociedadesLogo className="w-full" />
+      </div>
       <p className="mt-3 text-center text-[11px] font-semibold tracking-[0.16em] text-muted-foreground uppercase">Inteligencia empresarial</p>
     </div>
   );

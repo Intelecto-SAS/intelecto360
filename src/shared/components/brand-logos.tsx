@@ -1,12 +1,12 @@
 import { cn } from "cn";
 
-export function CamaraLogo({ className }: { className?: string }) {
+export function SupersociedadesLogo({ className }: { className?: string }) {
   return (
     <img
-      src="/brand/camara-comercio-cali.png"
-      alt="Cámara de Comercio de Cali"
-      width={414}
-      height={189}
+      src="/brand/supersociedades.png"
+      alt="Superintendencia de Sociedades"
+      width={698}
+      height={470}
       className={cn("h-auto max-w-full object-contain", className)}
     />
   );

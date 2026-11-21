@@ -11,7 +11,7 @@ const geistSans = Geist({
 
 export const metadata: Metadata = {
   title: "Inteligencia empresarial",
-  description: "Plataforma Integral de Inteligencia Empresarial de la Cámara de Comercio de Cali.",
+  description: "Plataforma Integral de Inteligencia Empresarial de la Superintendencia de Sociedades.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 import { LoginForm } from "@/features/auth";
-import { CamaraLogo, IntelectoLogo } from "@/shared/components/brand-logos";
+import { IntelectoLogo, SupersociedadesLogo } from "@/shared/components/brand-logos";
 
 export const metadata: Metadata = { title: "Ingresar · Inteligencia Empresarial" };
 
@@ -12,7 +12,7 @@ export default function LoginPage() {
         <DataArtwork />
         <div className="relative z-10">
           <div className="w-full max-w-xs rounded-2xl bg-white px-4 py-3 lg:max-w-sm">
-            <CamaraLogo className="w-full" />
+            <SupersociedadesLogo className="w-full" />
           </div>
           <h1 className="mt-8 max-w-xl text-4xl font-semibold tracking-tight lg:text-5xl">Inteligencia Empresarial</h1>
           <p className="mt-4 max-w-md text-base leading-7 text-white/85">
@@ -21,8 +21,8 @@ export default function LoginPage() {
         </div>
         <p className="relative z-10 mt-10 hidden text-sm text-white/70 lg:block">Registro Mercantil y ESAL · datos de demostración</p>
       </section>
-      <section className="flex flex-col justify-center bg-[#f3f6fb] px-4 py-10 lg:px-12">
-        <div className="mx-auto w-full max-w-md rounded-3xl bg-white p-6 shadow-[0_24px_70px_-36px_rgba(15,40,80,0.55)] ring-1 ring-slate-200/80 sm:p-8">
+      <section className="flex flex-col justify-center bg-[#f8f3f4] px-4 py-10 lg:px-12">
+        <div className="mx-auto w-full max-w-md rounded-3xl bg-white p-6 shadow-[0_24px_70px_-36px_rgba(80,20,35,0.45)] ring-1 ring-slate-200/80 sm:p-8">
           <h2 className="text-2xl font-semibold tracking-tight">Ingresar</h2>
           <p className="mt-1 mb-6 text-sm text-muted-foreground">Accede con una cuenta de demostración para recorrer la plataforma.</p>
           <LoginForm />
@@ -60,18 +60,18 @@ function DataArtwork() {
         ].map(([x, y]) => (
           <g key={`${x}-${y}`}>
             <circle cx={x} cy={y} r="18" fill="white" fillOpacity="0.08" stroke="white" strokeOpacity="0.35" />
-            <circle cx={x} cy={y} r="4" fill="#7dd3fc" />
+            <circle cx={x} cy={y} r="4" fill={["#FCD116", "#003893", "#CE1126"][(x + y) % 3]} />
           </g>
         ))}
       </svg>
       <div className="absolute top-24 right-10 hidden h-28 w-40 rounded-2xl border border-white/20 bg-white/10 backdrop-blur-sm lg:block" />
       <div className="absolute right-16 bottom-28 hidden w-48 rounded-2xl border border-white/15 bg-white/10 p-4 backdrop-blur-sm lg:block">
         <div className="flex h-16 items-end gap-2">
-          <span className="h-6 w-3 rounded-sm bg-cyan-300/80" />
+          <span className="h-6 w-3 rounded-sm bg-[#FCD116]/90" />
           <span className="h-10 w-3 rounded-sm bg-white/70" />
-          <span className="h-14 w-3 rounded-sm bg-violet-300/80" />
-          <span className="h-8 w-3 rounded-sm bg-emerald-300/80" />
-          <span className="h-12 w-3 rounded-sm bg-orange-300/80" />
+          <span className="h-14 w-3 rounded-sm bg-[#962D46]" />
+          <span className="h-8 w-3 rounded-sm bg-[#003893]/80" />
+          <span className="h-12 w-3 rounded-sm bg-[#CE1126]/85" />
         </div>
       </div>
     </div>

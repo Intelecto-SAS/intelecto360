@@ -1,6 +1,6 @@
 # Plataforma Integral de Inteligencia Empresarial - MVP
 
-Consulta, seguimiento y visualización de información empresarial de referencia para la Cámara de Comercio de Cali. Este repositorio es un MVP demostrable: los datos son simulados y cubren Registro Mercantil y ESAL. No es la plataforma productiva de la Cámara.
+Consulta, seguimiento y visualización de información empresarial de referencia para la Superintendencia de Sociedades. Este repositorio es un MVP demostrable: los datos son simulados y cubren Registro Mercantil y ESAL. No es la plataforma productiva de la Superintendencia.
 
 ## Objetivo
 
