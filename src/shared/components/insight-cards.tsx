@@ -16,10 +16,10 @@ const PALETTE = ["var(--chart-1)", "var(--chart-2)", "var(--chart-3)", "var(--ch
 
 const TONES = {
   navy: {
-    card: "bg-gradient-to-br from-[#163a73] via-[#1d4f91] to-[#0f766e] text-white shadow-lg shadow-blue-950/10",
+    card: "bg-gradient-to-br from-[#1a0c10] via-[#962D46] to-[#5c2434] text-white shadow-lg shadow-[#962D46]/20",
     icon: "bg-white/15 text-white",
     label: "text-white/80",
-    hint: "text-cyan-100",
+    hint: "text-white/75",
     value: "text-white",
   },
   blue: {

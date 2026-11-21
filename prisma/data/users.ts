@@ -49,8 +49,8 @@ export const settings: SettingSeed[] = [
   },
   {
     clave: "camara.nombre",
-    valor: "Cámara de Comercio de Cali",
-    descripcion: "Cámara de comercio de referencia del MVP.",
+    valor: "Superintendencia de Sociedades",
+    descripcion: "Entidad cliente de referencia del MVP.",
   },
   {
     clave: "demo.aviso",

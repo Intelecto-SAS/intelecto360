@@ -84,7 +84,7 @@ export function LoginForm() {
           <button
             key={account.email}
             type="button"
-            className="flex items-center justify-between gap-3 rounded-xl border bg-slate-50 px-3 py-2 text-left transition hover:border-primary/30 hover:bg-sky-50 focus-visible:outline-2 focus-visible:outline-offset-2"
+            className="flex items-center justify-between gap-3 rounded-xl border bg-slate-50 px-3 py-2 text-left transition hover:border-primary/30 hover:bg-primary/5 focus-visible:outline-2 focus-visible:outline-offset-2"
             onClick={() => {
               form.setValue("email", account.email, { shouldValidate: true });
               form.setValue("password", DEMO_PASSWORD, { shouldValidate: true });
